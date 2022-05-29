@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Navbar Start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top py-2">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h1>PuddingFest</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-bold">
+            <li class="nav-item text-xl">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Event</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-primary ms-lg-3">Contact Us</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end-->
+
+    <!-- Header -->
+    <div class="hero vh-100 d-flex align-items-center" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mx-auto text-center">
+            <h1 class="display-4 text-white">Welcome To PuddingFest</h1>
+            <p class="text-white my-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestias explicabo excepturi officiis asperiores est fuga voluptatibus velit a expedita, tempora nulla placeat voluptate vitae doloribus, quisquam nam voluptas.
+              Deleniti.
+            </p>
+            <a href="#eventlist" class="btn btn-outline-light me-2">Explore More</a>
+            <button type="button" class="btn btn-primary px-3" data-bs-toggle="modal" data-bs-target="#myModal">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end header-->
+
+    <!-- event list start-->
+    <section id="eventlist">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h6 class="text-primary">Event</h6>
+            <h1>List of Events</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint rerum voluptatum tempore beatae dolor molestias, aliquam reprehenderit hic commodi! Explicabo eaque voluptates illo quod quos quisquam magnam, officia illum a?</p>
+          </div>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-4 col-sm-6">
+            <div class="eventlist efek-kartu">
+              <div class="iconbox">
+                <i class="bx bxl-wordpress"></i>
+              </div>
+              <h5 class="mt-4 mb-2">WordPress</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corrupti voluptas quasi, sint accusantium saepe inventore mollitia neque recusandae, distinctio ratione dolore consequuntur dolorem iusto consectetur optio
+                incidunt iure sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="eventlist efek-kartu">
+              <div class="iconbox">
+                <i class="bx bxs-briefcase-alt-2"></i>
+              </div>
+              <h5 class="mt-4 mb-2">Jobs Fair</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corrupti voluptas quasi, sint accusantium saepe inventore mollitia neque recusandae, distinctio ratione dolore consequuntur dolorem iusto consectetur optio
+                incidunt iure sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="eventlist efek-kartu">
+              <div class="iconbox">
+                <i class="bx bxl-redux"></i>
+              </div>
+              <h5 class="mt-4 mb-2">Virtual Reality Games</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corrupti voluptas quasi, sint accusantium saepe inventore mollitia neque recusandae, distinctio ratione dolore consequuntur dolorem iusto consectetur optio
+                incidunt iure sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="eventlist efek-kartu">
+              <div class="iconbox">
+                <i class="bx bxs-conversation"></i>
+              </div>
+              <h5 class="mt-4 mb-2">Tech Conferences</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corrupti voluptas quasi, sint accusantium saepe inventore mollitia neque recusandae, distinctio ratione dolore consequuntur dolorem iusto consectetur optio
+                incidunt iure sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="eventlist efek-kartu">
+              <div class="iconbox">
+                <i class="bx bxs-user-plus"></i>
+              </div>
+              <h5 class="mt-4 mb-2">Meet Up</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corrupti voluptas quasi, sint accusantium saepe inventore mollitia neque recusandae, distinctio ratione dolore consequuntur dolorem iusto consectetur optio
+                incidunt iure sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="eventlist efek-kartu">
+              <div class="iconbox">
+                <i class="bx bxs-invader"></i>
+              </div>
+              <h5 class="mt-4 mb-2">Introducing to AI</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corrupti voluptas quasi, sint accusantium saepe inventore mollitia neque recusandae, distinctio ratione dolore consequuntur dolorem iusto consectetur optio
+                incidunt iure sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- event list end-->
+
+    <section>
+      <!--carousel Start-->
+
+      <div class="container mb-5">
+        <h1 class="text-center fw-bold display-1 mb-5">Meet Our <span class="text-primary">Speakers</span></h1>
+        <div class="row">
+          <div class="col-12 m-auto">
+            <div class="owl-carousel owl-theme">
+              <div class="item mb-4">
+                <div class="card border-0 shadow">
+                  <img src="/img/elon.jpg" alt="" class="card-img-top" />
+                  <div class="card-body">
+                    <div class="card-title text-center">
+                      <h4>Elon Musk (PuddingFest 2019)</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="card border-0 shadow">
+                  <img src="/img/jeff.jpg" alt="" class="card-img-top" />
+                  <div class="card-body">
+                    <div class="card-title text-center">
+                      <h4>Jeff Bezos (PuddingFest 2020)</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card border-0 shadow">
+                  <img src="/img/mark.jpg" alt="" class="card-img-top" />
+                  <div class="card-body">
+                    <div class="card-title text-center">
+                      <h4>Mark Z. (PuddingFest 2021)</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card border-0 shadow">
+                  <img src="/img/steve.jpg" alt="" class="card-img-top" />
+                  <div class="card-body">
+                    <div class="card-title text-center">
+                      <h4>Steve Jobs (PuddingFest 2018)</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--carousel end-->
+
+    <section class="timeline-section">
+      <!-- timeline start -->
+      <h1 class="timeline-judul">TimeLine Event</h1>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">09.00 - 09.15</div>
+          <div class="timeline-content">
+            <h3>Acara Pembukaan</h3>
+            <p>Acara pembukaan akan dilakukan upacara oleh petugas, dan sambutan dari pendiri PuddingFest Bapak Iwan Santosa, lalu ditutup dengan doa oleh Bapak Kurniawan</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">09.30 - 11.00</div>
+          <div class="timeline-content">
+            <h3>Seminar</h3>
+            <p>Talkshow, dan seminar oleh bintang tamu pembicara kita oleh Mr.X lalu akan diiringi dengan sesi tanya jawab dan juga ice breaker yang dipandu oleh Host</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">12.00 - 14.50</div>
+          <div class="timeline-content">
+            <h3>Acara Bebas</h3>
+            <p>para pengunjung yang datang bebas untuk mengunjungi acara apapun di PuddingFesr, WordPress, VR Games, Meet Up, Tech Conferences dan lainnya</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">15.00 - 16.00</div>
+          <div class="timeline-content">
+            <h3>Sesi Foto</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, inventore iure quidem atque eligendi tempore mollitia nobis neque, dolores porro tenetur fuga quia voluptates ipsa facilis iste! Exercitationem, corporis qui!</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">16.45 - Selesai</div>
+          <div class="timeline-content">
+            <h3>Upacara Penutupan</h3>
+            <p>Upacara penutupan akan dimulai dengan Upacara lalu akan dilanjuut oleh sambutan terimakasih dari pihak penyelenggara dan ditutup dengan doa oleh bapak Kurniawan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- timeline end -->
+
+    <section id="contact" class="bg-light">
+      <!-- contact start-->
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h6 class="text-primary">CONTACT</h6>
+            <h1>Get In Touch</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, error quam sint optio, repellendus blanditiis, laborum debitis esse dignissimos dolorem natus fuga neque laboriosam dicta necessitatibus quia est aperiam
+              delectus?
+            </p>
+          </div>
+        </div>
+
+        <div class="container row border">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Jakarta&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe
+              ><a href="https://putlocker-is.org"></a><br /><style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 500px;
+                  width: 600px;
+                }</style
+              ><a href="https://www.embedgooglemap.net">add a google map to website</a
+              ><style>
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 500px;
+                  width: 600px;
+                }
+              </style>
+            </div>
+          </div>
+          <form action="" class="col-6 ps-5">
+            <div class="col-md-auto">
+              <input type="text" class="form-control" placeholder="Full Name" />
+            </div>
+            <div class="col-md-auto">
+              <input type="text" class="form-control" placeholder="Enter E-mail" />
+            </div>
+            <div class="col-md-auto pb-3">
+              <input type="text" class="form-control" placeholder="Enter Subject" />
+            </div>
+            <div class="col-md-auto pb-3">
+              <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Enter Message"></textarea>
+            </div>
+            <div class="col-md-auto d-grid">
+              <button class="btn btn-primary">Contact</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact end-->
+
+    <div class="modal" id="myModal">
+      <!-- pop up started-->
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Contact Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" required />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="mb-3">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" required />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="mb-3">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required />
+                  <div class="invalid-feedback">Please choose a username.</div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required />
+                  <label class="form-check-label" for="invalidCheck"> Agree to terms and conditions </label>
+                  <div class="invalid-feedback">You must agree before submitting.</div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+                <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- pop up end -->
+
+    <footer>
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <h1 class="logo text-white">PuddingFest</h1>
+            </div>
+            <div class="col-lg-2">
+              <h5 class="text-white">Brand</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Partnership</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <h5 class="text-white">More</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">FAQ's</a></li>
+                <li><a href="#">Privacy & Policy</a></li>
+                <li><a href="#">Collaboration</a></li>
+                <li><a href="#">Social Media</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <h5 class="text-white">Contact</h5>
+              <ul class="list-unstyled">
+                <li>Menteng, Jakarta Pusat 243529, DKI Jakarta Kav 4 No.14</li>
+                <li>Email: PuddingFestival@gmail.com</li>
+                <li>Phone: +62 2823-5739-4723</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom py-3">
+        <div class="container">
+          <div class="text-center">
+            <div class="">
+              <p class="mb-0">© 2022 copyright all right reserved | Designed with Mental Health</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
